@@ -21,24 +21,96 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
-    "Chess Club": {
-        "description": "Learn strategies and compete in chess tournaments",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
-    },
-    "Programming Class": {
-        "description": "Learn programming fundamentals and build software projects",
-        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
-        "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
-    },
-    "Gym Class": {
-        "description": "Physical education and sports activities",
-        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
-        "max_participants": 30,
-        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
-    }
+   "Chess Club": {
+      "description": "Learn strategies and compete in chess tournaments",
+      "schedule": "Fridays, 3:30 PM - 5:00 PM",
+      "max_participants": 12,
+      "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+   },
+   "Programming Class": {
+      "description": "Learn programming fundamentals and build software projects",
+      "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
+      "max_participants": 20,
+      "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+   },
+   "Gym Class": {
+      "description": "Physical education and sports activities",
+      "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+      "max_participants": 30,
+      "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+   },
+   "Basketball Team": {
+      "description": "Competitive basketball training and games",
+      "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
+      "max_participants": 15,
+      "participants": []
+   },
+   "Swimming Club": {
+      "description": "Swimming training and water sports",
+      "schedule": "Mondays and Wednesdays, 3:30 PM - 5:00 PM",
+      "max_participants": 20,
+      "participants": []
+   },
+   "Volleyball Team": {
+      "description": "Team volleyball practice and league matches",
+      "schedule": "Wednesdays and Fridays, 4:00 PM - 6:00 PM",
+      "max_participants": 18,
+      "participants": []
+   },
+   "Track and Field": {
+      "description": "Training for running, jumping, and throwing events",
+      "schedule": "Mondays and Thursdays, 3:30 PM - 5:30 PM",
+      "max_participants": 25,
+      "participants": []
+   },
+   "Art Studio": {
+      "description": "Express creativity through painting and drawing",
+      "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+      "max_participants": 15,
+      "participants": []
+   },
+   "Drama Club": {
+      "description": "Theater arts and performance training",
+      "schedule": "Tuesdays, 4:00 PM - 6:00 PM",
+      "max_participants": 25,
+      "participants": []
+   },
+   "Photography Club": {
+      "description": "Capture the world through photography and editing",
+      "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+      "max_participants": 20,
+      "participants": []
+   },
+   "Dance Ensemble": {
+      "description": "Choreography and dance rehearsals for school performances",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 6:30 PM",
+      "max_participants": 20,
+      "participants": []
+   },
+   "Debate Team": {
+      "description": "Learn public speaking and argumentation skills",
+      "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+      "max_participants": 16,
+      "participants": []
+   },
+   "Science Club": {
+      "description": "Hands-on experiments and scientific exploration",
+      "schedule": "Fridays, 3:30 PM - 5:00 PM",
+      "max_participants": 20,
+      "participants": []
+   },
+   "Math Olympiad": {
+      "description": "Problem-solving challenges and math competition preparation",
+      "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
+      "max_participants": 20,
+      "participants": []
+   },
+   "Robotics Club": {
+      "description": "Design, build, and program robots for competitions",
+      "schedule": "Wednesdays and Fridays, 4:00 PM - 6:00 PM",
+      "max_participants": 18,
+      "participants": []
+   }
 }
 
 
